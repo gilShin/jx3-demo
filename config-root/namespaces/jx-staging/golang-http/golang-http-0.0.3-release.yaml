@@ -1,0 +1,48 @@
+# Source: golang-http/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-01-13T11:13:55Z"
+  deletionTimestamp: null
+  name: 'golang-http-0.0.3'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.3
+      sha: c3909cad0699a0dd2e3149b8fed819502c56fa5f
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: fefa165525dafd9913ddc033f7df8bf5ceb50bad
+    - author:
+        email: gil@tikalk.com
+        name: gilShin
+      branch: master
+      committer:
+        email: noreply@github.com
+        name: GitHub
+      message: Update curlloop.sh
+      sha: b7b5cdb073d41d91cd342c186419050a78029982
+  gitHttpUrl: https://github.com/gilShin/golang-http
+  gitOwner: gilShin
+  gitRepository: golang-http
+  name: 'golang-http'
+  releaseNotesURL: https://github.com/gilShin/golang-http/releases/tag/v0.0.3
+  version: v0.0.3
+status: {}
