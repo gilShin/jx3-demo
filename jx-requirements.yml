@@ -14,18 +14,24 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.96.55.226
   environments:
   - key: dev
+    owner: gilShin
+    repository: jx3-demo
   - key: staging
   - key: production
   ingress:
     domain: 192.168.99.100.nip.io
     externalDNS: false
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: gilshin
   repository: bucketrepo
   secretStorage: vault
   vault: {}
