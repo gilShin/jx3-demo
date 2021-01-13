@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         gilShin/Ping-pong: true
+        gilShin/cars-rest-api: true
         gilShin/jx3-demo: true
         gilShin/tikal-demo2: true
     plank: {}
@@ -22,6 +23,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         gilShin/Ping-pong: merge
+        gilShin/cars-rest-api: merge
         gilShin/jx3-demo: merge
         gilShin/tikal-demo2: merge
       queries:
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo
+        - gilShin/cars-rest-api
         - gilShin/Ping-pong
         - gilShin/tikal-demo2
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo
+        - gilShin/cars-rest-api
         - gilShin/Ping-pong
         - gilShin/tikal-demo2
       target_url: http://dashboard-jx.192.168.99.100.nip.io

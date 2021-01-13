@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/cars-rest-api
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/Ping-pong
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -29,6 +33,22 @@ data:
     owners: {}
     plugins:
       gilShin/Ping-pong:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/cars-rest-api:
       - approve
       - assign
       - blunderbuss
@@ -88,6 +108,9 @@ data:
     triggers:
     - repos:
       - gilShin/jx3-demo
+      trusted_org: todo
+    - repos:
+      - gilShin/cars-rest-api
       trusted_org: todo
     - repos:
       - gilShin/Ping-pong
