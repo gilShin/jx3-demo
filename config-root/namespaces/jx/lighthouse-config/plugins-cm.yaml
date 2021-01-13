@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/Ping-pong
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/tikal-demo2
       require_self_approval: true
     cat: {}
@@ -24,6 +28,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      gilShin/Ping-pong:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       gilShin/jx3-demo:
       - config-updater
       - approve
@@ -68,6 +88,9 @@ data:
     triggers:
     - repos:
       - gilShin/jx3-demo
+      trusted_org: todo
+    - repos:
+      - gilShin/Ping-pong
       trusted_org: todo
     - repos:
       - gilShin/tikal-demo2
