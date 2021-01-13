@@ -9,5 +9,6 @@ spec:
     providerKind: github
     repositories:
     - name: Ping-pong
+    - name: cars-rest-api
     - name: tikal-demo2
     scheduler: in-repo
