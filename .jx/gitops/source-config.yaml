@@ -10,5 +10,6 @@ spec:
     repositories:
     - name: Ping-pong
     - name: cars-rest-api
+    - name: golang-http
     - name: tikal-demo2
     scheduler: in-repo
