@@ -8,5 +8,6 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: Ping-pong
     - name: tikal-demo2
     scheduler: in-repo
