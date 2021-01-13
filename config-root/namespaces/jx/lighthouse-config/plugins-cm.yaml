@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/golang-http
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/Ping-pong
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -49,6 +53,22 @@ data:
       - dog
       - pony
       gilShin/cars-rest-api:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/golang-http:
       - approve
       - assign
       - blunderbuss
@@ -111,6 +131,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/cars-rest-api
+      trusted_org: todo
+    - repos:
+      - gilShin/golang-http
       trusted_org: todo
     - repos:
       - gilShin/Ping-pong
